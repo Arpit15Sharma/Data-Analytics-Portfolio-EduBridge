@@ -25,5 +25,34 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 - Logistic Regression
 - Random Forest
 
+  ### <u>Comparison all Models:<u>
+
+<table>
+ <tr>
+   <th>Model</th>
+   <th>Accuracy Percentage</th>
+   <th>ROC-AUC</th>
+   <th>Timetaken</th>
   
+ </tr>
+ <tr>
+   <td><u>Logistic Regression<u></td>
+   <td>80%</td>
+   <td>0.79</td>
+   <td>1.13</td>
+ </tr>
+ </tr>
+  <tr>
+    <td><u>Decision Tree Classifier<u></td>
+    <td>94%</td>
+    <td>0.94</td>
+    <td>0.52</td>
+  </tr>
+        </tr>
+  <tr>
+    <td><u>Random Forest<u></td>
+    <td>96%</td>
+    <td>0.95</td>
+    <td>8.95</td>>
+  </tr>
 **Best Model Score:** 99.97
