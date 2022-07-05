@@ -49,6 +49,7 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
     <td><u>Decision Tree Classifier<u></td>
     <td>0.999768</td>
     <td>0.079268</td>
+	<td>0.932099</td>
     <td>0.025068</td>
   </tr>
         </tr>
