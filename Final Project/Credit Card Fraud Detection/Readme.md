@@ -27,32 +27,36 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
   ### <u>Comparison all Models:<u>
 
+
 <table>
  <tr>
    <th>Model</th>
-   <th>Accuracy Percentage</th>
-   <th>ROC-AUC</th>
+   <th>Accuracy</th>
+   <th>FalseNegRate</th>
+   <th>F1 Score</th>
    <th>Timetaken</th>
   
  </tr>
  <tr>
-   <td><u>Logistic Regression<u></td>
-   <td>80%</td>
-   <td>0.79</td>
-   <td>1.13</td>
+   <td><u>Random Forest<u></td>
+   <td>0.999853</td>
+   <td>0.073171</td>
+   <td>0.955975</td>
+   <td>0.999728</td>
  </tr>
  </tr>
   <tr>
     <td><u>Decision Tree Classifier<u></td>
-    <td>94%</td>
-    <td>0.94</td>
-    <td>0.52</td>
+    <td>0.999768</td>
+    <td>0.079268</td>
+    <td>0.025068</td>
   </tr>
         </tr>
-  <tr>
-    <td><u>Random Forest<u></td>
-    <td>96%</td>
-    <td>0.95</td>
-    <td>8.95</td>>
-  </tr>
-**Best Model Score:** 99.97
+ </table>
+  
+  
+  
+##### For a best model for prediction 
+* Maximum Accuracy
+* Minimum time is required 
+##### Comparing **Decision Tree Classifier** is the best from among the models trained to predict the accurate result with an **accuracy** of **0.999768** and **time taken** to execute is **0.025068**
